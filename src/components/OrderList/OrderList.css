@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--tan-1);
-  border: 0.1vmin solid var(--tan-3);
+  background-color: var(--green-inner);
+  border: 0.1vmin solid var(--green-outter);
   border-radius: 2vmin;
   margin: 3vmin 0;
   padding: 8vmin;

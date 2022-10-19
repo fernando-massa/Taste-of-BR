@@ -1,13 +1,13 @@
 .MenuList {
-  background-color: var(--tan-1);
-  border: .1vmin solid var(--tan-3);
+  background-color: var(--green-inner);
+  border: .1vmin solid var(--green-outter);
   border-radius: 2vmin;
   margin: 3vmin min;
   padding: 3vmin;
   overflow-y: scroll;
   width: 100%;
   display: grid;
-  border-top: .1vmin solid var(--tan-3);
+  border-top: .1vmin solid var(--green-outter);
   font-size: 1.5vw;
   height: 1000px;
 }

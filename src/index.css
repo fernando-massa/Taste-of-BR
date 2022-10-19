@@ -2,32 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --white: #FFFFFF;
-  --white-2: #fcfcf8;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --black: #000000;
-  --grey-1: #dfdfdf;
-  --grey-2: #838383;
-  --text-light: #968c84;
-  --text-dark: #615954;
-} */
 
 :root {
   --white: #FFFFFF;
   --white-2: #fcfcf8;
-  --tan-1: #FBF9F6;
-  --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
+  --green-inner: #9dcc92;
+  --green-outter: #387233;
   --black: #000000;
-  --grey-1: #dfdfdf;
-  --grey-2: #838383;
-  --text-light: #968c84;
-  --text-dark: #615954;
+
+
 }
 
 
@@ -92,9 +75,8 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--tan-1);
-  color: var(--text-dark);
-  border: .1vmin solid var(--tan-3);
+  background-color: var(--green-inner);
+  border: .1vmin solid var(--green-outter);
   border-radius: 1vmin;
   padding: .6vmin;
   text-align: center;
@@ -135,7 +117,6 @@ input {
   font-size: 1.5vmin;
   border: .1vmin solid var(--black);
   border-radius: 2px;
-  color: var(--text-dark);
   background-image: none !important;
   outline: none;
 }
@@ -191,9 +172,7 @@ button:disabled,
 form:invalid button[type="submit"] {
 
   cursor: not-allowed;
-  color: var(--grey-2);
-  border-top: 1px solid var(--grey-2);
-  border-bottom: 1px solid var(--grey-2);
+
 }
 
 button[type="submit"] {
