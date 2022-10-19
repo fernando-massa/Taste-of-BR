@@ -1,0 +1,54 @@
+/* .NewOrderPage {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 3.5fr 2fr;
+  grid-template-rows: 1fr;
+  background-color: var(--white);
+}
+
+.NewOrderPage aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3vmin 2vmin;
+}
+
+.category-container {
+  padding-top: 2.5vh;
+}
+
+#category-title {
+  font-size: 1.8vw;
+  margin-bottom: 1.2vh;
+  margin-top: 1.1vh;
+  padding-bottom: 2vh;
+  border-bottom: 1px solid black;
+  width: 35vw;
+}
+
+
+.user-welcome-container {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.7vw;
+  margin: 0vh 5.5vw 0vh 5.5vw;
+}
+ */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.body-container {
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+}

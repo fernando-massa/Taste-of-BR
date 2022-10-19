@@ -1,0 +1,55 @@
+.OrderListItem {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3vmin;
+  margin-right: 4vmin;
+  padding: 2vmin;
+  color: black;
+  background-color: var(--white);
+  border: .1vmin solid black;
+  border-radius: 2px;
+  font-size: 4vmin;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.OrderListItem:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.OrderListItem .right {
+  text-align: right;
+}
+
+.OrderListItem .bottom {
+  font-size: 1.7vw;
+}
+
+.OrderListItem .orderIdText {
+  font-weight: 400;
+  font-size: 1.7vw;
+}
+
+.OrderListItem .orderId {
+  font-weight: 500;
+  font-size: 2vw;
+}
+
+.OrderListProduct .orderTotal {
+  font-weight: 400;
+  font-size: 1.9vw;
+}
+
+.OrderListProduct .orderDate {
+  font-weight: 400;
+  font-size: 1.6vw;
+  margin-top: 1.3vw;
+}
+
+.OrderListProduct .totalQty {
+  margin-top: 1vw;
+  font-size: 1.4vw;
+}
