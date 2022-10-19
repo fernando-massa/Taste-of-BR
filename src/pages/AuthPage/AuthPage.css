@@ -8,8 +8,10 @@
 }
 
 .AuthPage h3 {
+  padding: 1vmin;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   margin-top: 4vmin;
   text-align: center;
-  color: var(--text-light);
   cursor: pointer;
 }
