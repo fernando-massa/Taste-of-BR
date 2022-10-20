@@ -10,11 +10,14 @@
 
 [ERD Chart](https://lucid.app/lucidchart/21d8a6e1-1505-47ad-a012-bee55430eea3/edit?viewport_loc=-340%2C-109%2C1883%2C1075%2C0_0&invitationId=inv_94d1ba25-b9f4-419d-bcc7-96337213fcbf)
 
-[GitHub]()
+[GitHub](https://github.com/fernando-massa/Taste-of-BR)
 
 
 ### Screenshoots:
 
+![pic1](/src/screenshots/shot1.png)
+![pic2](/src/screenshots/shot2.png)
+![pic3](/src/screenshots/shot3.png)
 
 ### Wins:
 I did enjoy learning more React and TailwindCSS (with some help).
